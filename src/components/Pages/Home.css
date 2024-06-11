@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+.container {
+  margin-top:60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 25%;
+    height: auto;
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: #FFB534;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.card > h1 {
+    text-align: center;
+    margin-top: 10px;  
+    font-size: 28px;
+    margin: 0px;
+}
+
+.card > p {
+    text-align: center;
+    margin-top: 20px;  
+    font-size: 18px;
+    text-align: center;
+}
+.card > a {
+    text-decoration: none;
+    background-color: #FFB534;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card:hover.card > a {
+    background-color: white;
+    color: #FFB534;
+    transition: all 0.3s ease-in-out;        
+}
